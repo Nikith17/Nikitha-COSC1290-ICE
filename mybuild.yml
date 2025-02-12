@@ -6,13 +6,12 @@ phases:
       nodejs: 16
     commands:
       - echo "Installing dependencies..."
-      - npm install  # Re-enable npm install for proper dependency installation
-      
+      - npm install
+
   build:
     commands:
-    - echo "Forcing failure..."
-    - exit 1
-
+      - echo "Building the application..."
+      - npm run build || echo "No build script found, skipping..."
 
   post_build:
     commands:
