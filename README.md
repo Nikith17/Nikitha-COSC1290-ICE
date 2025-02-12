@@ -1,2 +1,2 @@
 # Nikitha-COSC1290-ICE
-This is for lab purpose
+This is for lab purpose only
