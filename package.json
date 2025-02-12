@@ -1,0 +1,22 @@
+{
+    "name": "nikitha-cosc1290-ice",  
+    "version": "1.0.0",
+    "description": "CI/CD pipeline example for AWS CodePipeline",
+    "main": "index.js", 
+    "scripts": {
+      "start": "node index.js",  
+      "build": "echo 'Building the application...'"  
+    },
+    "dependencies": {
+      "express": "^4.17.1"  
+    },
+    "devDependencies": {
+      
+    },
+    "author": "Nikitha",
+    "license": "ISC",
+    "engines": {
+      "node": "16.x"  
+    }
+  }
+  
