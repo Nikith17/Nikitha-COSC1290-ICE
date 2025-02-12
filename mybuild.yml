@@ -12,11 +12,8 @@ phases:
     commands:
       - echo "Building the application..."
       - npm run build || echo "No build script found, skipping..."
+      - bad-command-here # This is an invalid command, will cause a build failure.
 
   post_build:
     commands:
       - echo "Build completed successfully!"
-
-artifacts:
-  files:
-    - '**/*'
